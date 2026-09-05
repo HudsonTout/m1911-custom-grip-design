@@ -45,10 +45,10 @@ The component functions through a predictable three-stage cycle from installatio
 | Parameter | Specification |
 | :--- | :--- |
 | **Platform Compatibility** | Standard M1911 Government / Commander Frame |
-| **Bushing Counterbore Tolerance** | 0.15 mm |
+| **Bushing Counterbore Tolerance** | 0.10 mm |
 | **Frame Interface Clearance** | 0.05 mm |
 | **Primary Substrate** | PLA (Polylactic Acid) |
-| **Slicing Profile** | 4 Shells / 25% Gyroid Infill / XY-Axis Flat |
+| **Slicing Profile** | 4 Shells / 25% Cubic Infill / XY-Axis Flat |
 
 ---
 
@@ -61,7 +61,6 @@ Physical load testing was conducted to validate the structural integrity and com
 * **Total Component Mass ($m$):** 21 grams ($0.0185 \text{ kg}$) per panel
 
 ### Compliance & Deformation Data
-* **Applied Grip Force Interval:** $0.00 \text{ N}$ to $250.00 \text{ N}$
 * **Measured Elastic Micro-Flexion:** 0.98 mm at maximum operational hand pressure
 
 ### Structural Evaluation
@@ -71,7 +70,7 @@ Post-test physical analysis confirmed zero layer delamination, permanent deforma
 
 ## 6. Conclusion
 
-This project demonstrates that custom ergonomic components can be engineered for targeted mechanical behaviors using Design for Additive Manufacturing (DFAM). By leveraging precise print tolerances ($0.05 \text{ mm}$ to $0.15 \text{ mm}$) and intentional internal slicing parameters, the assembly maintains a solid structural fit while introducing functional flexibility. The resulting dataset validates that consumer-grade PLA, when printed with calculated internal architecture, can withstand cyclic structural loads, eliminate mechanical play, and provide an adaptable ergonomic interface.
+This project demonstrates that custom ergonomic components can be engineered for targeted mechanical behaviors using Design for Additive Manufacturing (DFAM). By leveraging precise print tolerances ($0.05 \text{ mm}$ to $0.10 \text{ mm}$) and intentional internal slicing parameters, the assembly maintains a solid structural fit while introducing functional flexibility. The resulting dataset validates that consumer-grade PLA, when printed with calculated internal architecture, can withstand structural loads, eliminate mechanical play, and provide an adaptable ergonomic interface.
 
 ---
 
@@ -79,7 +78,7 @@ This project demonstrates that custom ergonomic components can be engineered for
 
 For technical recruiters and hiring managers reviewing this repository, this project demonstrates practical proficiency in the following core engineering disciplines:
 
-* **Advanced Tolerance Architecture:** Designing high-precision mating features ($0.05 \text{ mm}$ to $0.15 \text{ mm}$ clearances) that interface seamlessly with standardized industrial hardware.
+* **Advanced Tolerance Architecture:** Designing high-precision mating features ($0.05 \text{ mm}$ to $0.10 \text{ mm}$ clearances) that interface seamlessly with standardized industrial hardware.
 * **Mechanical & Ergonomic Design:** Applying structural mechanics to create localized compliance zones, translating material limitations into predictable performance benefits.
 * **Design for Additive Manufacturing (DFAM):** Utilizing print orientation, anisotropy, bed adhesion control, and infill morphology to manipulate component density, elasticity, and shear strength.
 Use code with caution.
