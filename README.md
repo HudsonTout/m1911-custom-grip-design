@@ -1,6 +1,6 @@
 # Custom M1911 Grip Panels — Design, Ergonomic Optimization, and FDM Manufacturing
 
-This project details the design, ergonomic optimization, and additive manufacturing of custom grip panels for the M1911 platform. The panels are engineered specifically for Fused Deposition Modeling (FDM) using PLA. By utilizing targeted slicing profiles and internal geometries, the design leverages material compliance to achieve a balance of frame integration, structural durability, and tactile flexibility.
+This project details the design, ergonomic optimization, and additive manufacturing of custom grip panels for the M1911 platform (Rock Island Armory M1911 A1 Tac Ultra). The panels are engineered specifically for Fused Deposition Modeling (FDM) using PLA. By utilizing targeted slicing profiles and internal geometries, the design leverages material compliance to achieve a balance of frame integration, structural durability, and tactile flexibility.
 
 ---
 
@@ -26,6 +26,7 @@ The grip layout divides the panel into distinct functional regions optimized for
 
 * **Tactile Texture Matrix:** Features a custom hexagon/diamond-checkering pattern designed to increase the coefficient of friction between the operator's hand and the frame. The spacing and depth of the checkering prevent slipping without causing abrasive hotspotting.
 * **Compliance Relief Pockets:** The interior face incorporates targeted relief zones. Reducing the cross-sectional wall thickness in non-load-bearing areas creates passive flexibility, letting the panel conform slightly to individual grip pressure.
+* **Ergonomic Design:** The frontal face applies a slight curvature across the width of the grip panel to ensure a comfortable & uniform grip,
 
 ---
 
@@ -33,9 +34,9 @@ The grip layout divides the panel into distinct functional regions optimized for
 
 The component functions through a predictable three-stage cycle from installation to active use:
 
-1. **Indexing & Alignment:** The panel drops over standard frame stock bushings. The high-tolerance interior geometry indexes against the frame contours, constraining 5 out of 6 degrees of freedom before fasteners are tightened.
-2. **Fastener Pre-load:** Standard M1911 grip screws are torqued down. The counterbore walls distribute the compressive pre-load evenly, avoiding localized crushing of the printed PLA substrate.
-3. **Ergonomic Micro-Deflection:** Under active handling or high-retention gripping, the internal gyroid infill and pocketed relief zones allow the panel to deflect elastically, distributing pressure across the palm.
+1. **Indexing & Alignment:** The panel drops over standard frame stock bushings.
+2. **Fastener Pre-load:** Standard M1911 grip screws are torqued down. The counterbore walls distribute the compressive pre-load evenly, avoiding localized crushing of the printed PLA.
+3. **Ergonomic Micro-Deflection:** Under active handling or high-retention gripping, the internal gyroid infill and pocketed relief zones allow the panel to flex, distributing pressure across the palm.
 
 ---
 
@@ -56,12 +57,12 @@ The component functions through a predictable three-stage cycle from installatio
 Physical load testing was conducted to validate the structural integrity and compliance mechanics of the design. High-resolution measurements were logged before and after compression cycles.
 
 ### Dimensional Metrics
-* **Panel Thickness:** 6.35 mm
-* **Total Component Mass ($m$):** 18.50 grams ($0.0185 \text{ kg}$) per panel
+* **Average Panel Thickness:** ~7 mm
+* **Total Component Mass ($m$):** 21 grams ($0.0185 \text{ kg}$) per panel
 
 ### Compliance & Deformation Data
 * **Applied Grip Force Interval:** $0.00 \text{ N}$ to $250.00 \text{ N}$
-* **Measured Elastic Micro-Deflection:** 0.12 mm at maximum operational hand pressure
+* **Measured Elastic Micro-Flexion:** 0.98 mm at maximum operational hand pressure
 
 ### Structural Evaluation
 Post-test physical analysis confirmed zero layer delamination, permanent deformation, or stress-whitening around the mounting holes. This demonstrates that flat-oriented PLA prints with optimized perimeters successfully withstand typical handling forces and fastener pre-loads without failure.
